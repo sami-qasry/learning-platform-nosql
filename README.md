@@ -67,3 +67,4 @@ Question: Quelle est la meilleure façon de gérer le démarrage de l'applicatio
     Réponse :
         - Utiliser une fonction startServer pour initialiser les connexions (bases de données, services), configurer les middlewares, monter les routes et démarrer le serveur.
         - Gérer les erreurs et ajouter des mécanismes pour un arrêt propre (comme écouter le signal SIGTERM pour fermer les connexions).
+        
